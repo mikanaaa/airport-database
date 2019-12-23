@@ -57,6 +57,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Data" />
+    <Folder Include="Query" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Pilot.sql" />
@@ -64,5 +66,7 @@
     <Build Include="Tables\Flight.sql" />
     <Build Include="Tables\License.sql" />
     <Build Include="Tables\Flight_History.sql" />
+    <Build Include="Data\Default_Data.sql" />
+    <Build Include="Query\Queries.sql" />
   </ItemGroup>
 </Project>
