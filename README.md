@@ -11,3 +11,4 @@ Steps in creating this project:
 - ERD entities
 - ERD entity relationships
 - DDL create tables
+- DML inserting data
