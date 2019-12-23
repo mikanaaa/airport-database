@@ -1,6 +1,6 @@
 ﻿-- Pilot table data
 insert into Pilot (first_name, last_name, pay) values 
-					('Ventidius', 'Bassus', 130000),
+					      ('Ventidius', 'Bassus', 130000),
 				       	('Oktavijan', 'Avgust', 210000),
 				       	('Flavius', 'Heraclius', 160000),
 				       	('Julije', 'Cezar', 170000),
@@ -9,7 +9,8 @@ insert into Pilot (first_name, last_name, pay) values
 				       	('Germanicus','Ceasar', 140000),
 				       	('Pompeius','Magnus', 165000),
 				       	('Marcus', 'Crassus', 130000),
-				       	('Constantine','Palaeologus', 200000);
+				       	('Constantine','Palaeologus', 200000)
+go
 -- Airplane table data
 insert into Airplane (company, model, seats) values 
 				        ('Airbus', 'A320', 180),
@@ -21,7 +22,8 @@ insert into Airplane (company, model, seats) values
 				        ('Boeing','777', 340),
 				        ('Embraer', '170', 174),
 				        ('Embraer', '145XR', 50),
-				        ('Embraer','ERJ-135', 135);
+				        ('Embraer','ERJ-135', 135)
+go                
 -- Flight table data
 insert into Flight ([from], [to], [distance]) values
 					('Nis', 'Beograd', 350),
@@ -33,7 +35,8 @@ insert into Flight ([from], [to], [distance]) values
 					('Nis', 'Zagreb', 550),
 					('Zagreb', 'Nis', 550),
 					('Berlin', 'Madrid', 1870),
-					('Madrid', 'Berlin', 1870);
+					('Madrid', 'Berlin', 1870)
+go          
 -- License table data
 insert into License (pilot_id, airplane_id, expiry) values 
 					(1, 1, '2017-11-3'),
@@ -57,7 +60,8 @@ insert into License (pilot_id, airplane_id, expiry) values
 					(10, 7, '2020-2-2'),
 					(10, 2, '2018-4-30'),
 					(10, 9, '2016-7-2'),
-					(10, 8, '2026-5-29');
+					(10, 8, '2026-5-29')
+go          
 -- Flight_History table data
 insert into Flight_History values
 					(1, 1, 5, '2017-3-21 10:32', '2017-3-21 11:09', 82),
@@ -85,4 +89,5 @@ insert into Flight_History values
 					(6, 10, 4, '2017-2-5 8:26', '2017-2-5 10:44', 98),
 					(9, 10, 2, '2017-4-17 16:46', '2017-4-17 20:05', 516),
 					(10, 10, 8, '2017-4-17 5:21', '2017-4-17 8:24', 43),
-					(10, 10, 9, '2016-4-17 5:26', '2016-4-17 8:34', 35);
+					(10, 10, 9, '2016-4-17 5:26', '2016-4-17 8:34', 35)
+go          
