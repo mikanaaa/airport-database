@@ -6,5 +6,8 @@
 
 ## Timeline
 
+Steps in creating this project:
+
 - ERD entities
 - ERD entity relationships
+- DDL create tables
